@@ -6,7 +6,7 @@ export default function Nav() {
       <div className="container-fluid">
         <a className="navbar-brand mt-2 mt-lg-0" href="#">
           <img
-            src="public/images/blue-logo.png"
+            src="/images/blue-logo.png"
             height="50"
             alt="Your Logo Alt Text Here"
             loading="lazy"
