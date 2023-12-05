@@ -10,7 +10,7 @@ import {
     MDBCollapse
 } from 'mdb-react-ui-kit';
 
-export default function Header() {
+export default function Nav() {
     return (
 <MDBNavbar expand='lg' light bgColor='white' sticky>
 <MDBContainer fluid>
