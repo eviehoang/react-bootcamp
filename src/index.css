@@ -18,10 +18,11 @@ body {
 
 #footer {
   background-color: rgb(0, 0, 17, 0.84);
+  color: #B5FFE9;
 }
 
 .nav-link {
-  color: white;
+  color: #B5FFE9;
 }
 
 #center{
@@ -139,11 +140,12 @@ body {
 
 /* Contact Form */
 form {
-  background-color: #fff;
+  background-color: rgba(0, 0, 17, 0.94);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
+  color: #B5FFE9;
 }
 
 label {
@@ -161,10 +163,11 @@ input, textarea {
 }
 
 button {
-  background-color: #4caf50;
+  background-color: #3a1565;
   color: #fff;
   padding: 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  float: right;
   cursor: pointer;
 }
