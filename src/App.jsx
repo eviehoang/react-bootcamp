@@ -1,16 +1,18 @@
+import React from 'react';
 import './App.css';
-import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Home from './pages/Home';
+
 
 function App() {
-    return (
-        <div>
-            <Nav />
-            <Header />
-            <Footer />
-        </div>
-    );
+  return (
+      <div>
+        <Nav />
+
+        <Footer />
+      </div>
+  );
 }
 
 export default App;
