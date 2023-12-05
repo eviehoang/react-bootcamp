@@ -24,6 +24,26 @@ body {
   color: white;
 }
 
+#center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card size */
+.card {
+  max-width: 25%;
+  padding: auto;
+
+}
+/* box size */
+#box-size{
+  max-width: 75%;
+  min-width: 70%;
+}
+
+
+
 /* Wiggle Animation */
 .wiggle {
   animation: wiggle 1.5s infinite;
@@ -115,4 +135,36 @@ body {
   animation: flickerAnimation 2s infinite;
   padding: 0;
   margin: 0;
+}
+
+/* Contact Form */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
