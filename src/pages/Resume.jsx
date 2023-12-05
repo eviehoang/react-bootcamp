@@ -8,7 +8,7 @@ function Resume() {
     <Nav />
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
       
-      <embed src="src/assets/Evie-Resume-2023.pdf" type="application/pdf" width="80%" height="900px" />
+      <embed src="public/images/Evie-Resume-2023.pdf" type="application/pdf" width="80%" height="900px" />
     
     </div>
     <Footer />
