@@ -1,3 +1,62 @@
 body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   }
+
+  .navbar{
+    background-color: black;
+    color: white;
+    padding: 3%;
+  }
+
+  #footer{
+    background-color: black;
+  }
+
+  .nav-link{
+    color: white;
+  }
+
+  /* Wiggle Animation */
+.wiggle{
+  animation: wiggle 1.5s infinite;
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(5deg); }
+ 95% { transform: rotate(-5deg); }
+100% { transform: rotate(0deg); }
+}
+
+/* Flickering Animation */
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:.5; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation 2s infinite;
+   -moz-animation: flickerAnimation 2s infinite;
+   -o-animation: flickerAnimation 2s infinite;
+    animation: flickerAnimation 2s infinite;
+    padding: 0;
+    margin: 0;
+}
+
