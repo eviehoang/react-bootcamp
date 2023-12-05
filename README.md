@@ -49,7 +49,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Nhi Hoang - [linkedin](https://www.linkedin.com/in/ynhihoang/)
 Project Repo: [https://github.com/eviehoang/tech-blog](https://github.com/eviehoang/react-portfolio)
-Render: [Render](https://text-editor-pm3u.onrender.com/)
+Render: [Render](https://main--lovely-froyo-daf96b.netlify.app/)
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -60,5 +60,4 @@ Render: [Render](https://text-editor-pm3u.onrender.com/)
 * [GitHub Pages](https://pages.github.com)
 * [W3School](https://w3schools.com/graphics/svg_rect.asp) for tutorial codes and educational references.
 * [MDN](https://developer.mozilla.org/en-US/) for example codes and educational references.
-* [Source Code provided by BCS Team](https://github.com/coding-boot-camp/cautious-meme)
-* Thank you to Joem for help with debugging.
+* Thank you to Shane and Clar for help with debugging.
