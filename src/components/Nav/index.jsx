@@ -22,7 +22,7 @@ export default function Header() {
   >
     <MDBIcon fas icon='bars' />
   </MDBNavbarToggler>
-  <MDBCollapse show={showBasic}
+  <MDBCollapse show={showBasic}>
     <MDBNavbarNav right className='mb-2 mb-lg-0'>
       <MDBNavbarItem active>
         <MDBNavbarLink aria-current='page' href='#'>
