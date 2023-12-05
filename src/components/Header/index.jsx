@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function Header() {
     return (
-    <header>
       <div
         className='p-5 text-center bg-image'
         style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')", height: 400 }}
@@ -19,6 +18,5 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </header >
   );
 }
