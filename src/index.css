@@ -2,6 +2,7 @@ body {
   font-family: Roboto, Helvetica, Arial, sans-serif;
   background-image: url('src/assets/pexels-timelockz-4497038.jpg');
   background-size: cover;
+  margin-bottom: 9%;
 }
 
 .box {
@@ -19,6 +20,8 @@ body {
 #footer {
   background-color: rgb(0, 0, 17, 0.84);
   color: #B5FFE9;
+  bottom: 0;
+
 }
 
 .nav-link {

@@ -5,7 +5,7 @@ initMDB();
 
 export default function Cards() {
   return (
-    <div id="center">
+    <div id="center" >
     <div className="d-flex justify-content-around flex-wrap p-3 m-3" id="box-size">
       {/* First Row */}
       <div className="card m-3">
