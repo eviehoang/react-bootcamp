@@ -1,21 +1,22 @@
-import React from 'react';
-import Footer from './components/Footer';
-import Nav from './components/Nav';
+import './App.css';
+import Nav from './components/navbar';
+import Footer from './components/footer';
+import Home from './pages/Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
-    return (
-        <main>
-            <Nav />
-            <div className="box">
-                <div className='text-white'>
-                    <h1 className='m-1'>Hi! I'm <u>Nhi Hoang</u> </h1>
-                    <h4 className='m-1'>It's nice to meet you!</h4>
-                    <h5 className='m-1'>Take a <b className="animate-flicker">click </b>around</h5>
-                </div>
-            </div>
-            <Footer />
-        </main>
-    );
+  return (
+    <Router> {/* Wrap the entire app with the Router component */}
+      <main className="min-h-screen flex flex-col justify-between">
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Add your other routes as needed */}
+        </Routes>
+        <Footer />
+      </main>
+    </Router>
+  );
 }
 
 export default App;
