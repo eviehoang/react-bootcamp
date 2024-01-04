@@ -1,9 +1,12 @@
-import Card from "../components/info-card";
+import Info from "../components/info-card";
 
-export default function Home() {
+function Home() {
   return (
-    <section className="p-5">
-      <Card />
+    <section className="px-20 py-5 flex justify-center gap-x-60">
+      <div className="cols-7 m-5"><Info /></div>
+      <div className="cols-5 m-5"> Insert Animation Here </div>
     </section>
   );
 }
+
+export default Home;
