@@ -36,7 +36,7 @@ export default function Component() {
             href="https://github.com/eviehoang/"
             className="inline-block rounded-full bg-darkblue p-2.5 text-center text-sm font-medium text-white hover:bg-blue dark:bg-blue dark:hover:bg-yellow dark:focus:ring-blue"
           >
-            <img src="./public/images/github-icon.svg" alt="linkedin" width="15" className="mx-auto"></img>
+            <img src="../public/images/github-icon.svg" alt="linkedin" width="15" className="mx-auto"></img>
           </a>
         </div>
       </div>
