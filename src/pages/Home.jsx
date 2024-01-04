@@ -1,11 +1,18 @@
 import Info from "../components/info-card";
-import Sidebar from "../components/sidebar";
+import Skills from "../components/skills";
+import Accordian from "../components/accordian";
 
 function Home() {
   return (
-    <section className="px-20 py-5 flex justify-center gap-x-60">
-      <div className="cols-7 m-5"><Info /></div>
-      <div className="cols-span m-5"><Sidebar /></div>
+    <section>
+      <div className="flex justify-center m-20 space-x-12">
+        <Info />
+        <Skills />
+      </div>
+
+      <div className="flex justify-center m-20">
+        <Accordian />
+      </div>
     </section>
   );
 }
