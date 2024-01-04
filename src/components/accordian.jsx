@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from 'flo
 
 function Component() {
   return (
-    <Accordion collapseAll>
+    <Accordion collapseAll className="max-w-md">
       <AccordionPanel>
         <AccordionTitle>What is Flowbite?</AccordionTitle>
         <AccordionContent>

@@ -9,12 +9,20 @@ export default function Component() {
   return (
     <Card className="flex flex-col w-80">
       <div className="items-center">
-        <h1 className="text-3xl text-center pt-0 text-darkblue mb-3">Skills</h1>
+        {/* Heading */}
+        <h1 className="mb-1 text-2xl font-medium text-center text-teal dark:text-white mb-3">
+          Skills
+        </h1>
+
+        {/* Divider */}
+        <hr className="w-5/6 h-0.5 mx-auto my-4 bg-darkblue"></hr>
+
+        {/* Skill List */}
         <div className="flex justify-between mb-1 w-full gap-0">
-          <span className="text-base font-medium text-blue dark:text-white">
+          <span className="text-base font-medium text-teal dark:text-white">
             HTML
           </span>
-          <span className="text-sm font-medium text-blue dark:text-white">
+          <span className="text-sm font-medium text-teal dark:text-white">
             {htmlPercent}%
           </span>
         </div>
@@ -26,10 +34,10 @@ export default function Component() {
         </div>
 
         <div className="flex justify-between mb-1">
-          <span className="text-base font-medium text-blue dark:text-white">
+          <span className="text-base font-medium text-teal dark:text-white">
             CSS
           </span>
-          <span className="text-sm font-medium text-blue dark:text-white">
+          <span className="text-sm font-medium text-teal dark:text-white">
             {cssPercent}%
           </span>
         </div>
@@ -41,10 +49,10 @@ export default function Component() {
         </div>
 
         <div className="flex justify-between mb-1">
-          <span className="text-base font-medium text-blue dark:text-white">
+          <span className="text-base font-medium text-teal dark:text-white">
             Javascript
           </span>
-          <span className="text-sm font-medium text-blue dark:text-white">
+          <span className="text-sm font-medium text-teal dark:text-white">
             {javaPercent}%
           </span>
         </div>
@@ -56,10 +64,10 @@ export default function Component() {
         </div>
 
         <div className="flex justify-between mb-1">
-          <span className="text-base font-medium text-blue dark:text-white">
+          <span className="text-base font-medium text-teal dark:text-white">
             React
           </span>
-          <span className="text-sm font-medium text-blue dark:text-white">
+          <span className="text-sm font-medium text-teal dark:text-white">
             {reactPercent}%
           </span>
         </div>

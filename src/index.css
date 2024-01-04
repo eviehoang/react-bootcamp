@@ -1,13 +1,46 @@
+/* Variables */
+:root {
+  --blue: #8ecae6;
+  --teal: #219ebc;
+  --darkblue: #023047;
+  --yellow: #ffb703;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 0.6em;
+}
+::-webkit-scrollbar-track {
+  background: var(--darkblue);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--teal);
+}
+
+/* Navbar */
+.navLink{
+  color: var(--darkblue);
+  font-size: 1em;
+}
+
+.navLink:hover{
+  color: var(--yellow);
 }

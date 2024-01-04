@@ -5,7 +5,7 @@ import Accordian from "../components/accordian";
 function Home() {
   return (
     <section>
-      <div className="flex items-start justify-center m-20 space-x-12">
+      <div className="flex items-end justify-center m-20 space-x-12">
         <Info />
         <Skills />
       </div>

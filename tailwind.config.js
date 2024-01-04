@@ -32,6 +32,12 @@ module.exports = {
       borderRadius: {
         "4xl": "2rem",
       },
+      fontSize: {
+        "5xl": "2.5rem",
+        "6xl": "3.5rem",
+        "7xl": "4.5rem",
+        "8xl": "6.25rem",
+      },
     },
   },
   plugins: [require("flowbite/plugin"), require("flowbite-typography")],
