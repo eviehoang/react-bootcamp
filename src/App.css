@@ -3,3 +3,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+.CreateSVGIcon{
+    width: 1em;
+}
+

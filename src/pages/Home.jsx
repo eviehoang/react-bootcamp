@@ -5,12 +5,12 @@ import Accordian from "../components/accordian";
 function Home() {
   return (
     <section>
-      <div className="flex justify-center m-20 space-x-12">
+      <div className="flex items-start justify-center m-20 space-x-12">
         <Info />
         <Skills />
       </div>
 
-      <div className="flex justify-center m-20">
+      <div className="flex justify-center m-20 space-x-12">
         <Accordian />
       </div>
     </section>
