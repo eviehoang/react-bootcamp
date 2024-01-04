@@ -21,6 +21,8 @@ module.exports = {
         teal: "#219ebc",
         darkblue: "#023047",
         yellow: "#ffb703",
+        lavender: "#CAC6E0",
+        pink: "#F7C0B5",
       },
       backgroundColor: {
         pink: "#ff66b2",

@@ -2,22 +2,22 @@ import { Card } from "flowbite-react";
 
 export default function Component() {
   return (
-    <Card className="max-w-lg">
-      <div className="flex justify-end px-4 pt-4"></div>
+    <Card className="max-w-lg backdrop-blur-sm bg-white/60 border-none">
+      <div className="flex justify-start p-2"></div>
       <div className="flex flex-col items-center pb-2">
         <img
           alt="Nhi Hoang"
-          src="/images/IMG_6901.jpg" 
-          width="100"
-          className="mb-3 rounded-full shadow-lg"
+          src="/images/cute-avatar.png" 
+          width="120"
+          className="m-1 rounded-full shadow-lg"
         />
-        <h5 className="mb-1 text-2xl font-medium text-teal dark:text-white">
+        <h5 className="mt-3 mb-1 text-2xl font-medium text-teal dark:text-white">
           Nhi Hoang
         </h5>
         <span className="text-sm text-gray-500 dark:text-gray-400">
           Front End Developer
         </span>
-        <p className="text-sm mt-3 p-0"> 
+        <p className="text-sm mt-2 p-0 text-justify"> 
           Hey there! 👋 I'm a passionate explorer of life's wonders and a
           perpetual dreamer. By day, you'll find me immersed in the world of
           code, bringing digital ideas to life. By night, I transform into a
@@ -25,18 +25,18 @@ export default function Component() {
           universe. My heart beats to the rhythm of creativity, fueled by coffee
           and the occasional bout of wanderlust. 
         </p>
-        <div className="mt-4 flex space-x-3 lg:mt-6">
+        <div className="flex space-x-2 lg:mt-6">
           <a
             href="https://www.linkedin.com/"
-            className="inline-flex items-center rounded-lg bg-yellow px-4 py-2 text-center text-sm font-medium text-white hover:bg-teal focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
-          >
-            LinkedIn
+            className="inline-block rounded-full bg-yellow p-2.5 text-white hover:bg-teal dark:bg-blue dark:hover:bg-yellow dark:focus:ring-blue"
+            >
+            <img src="./public/images/linkedin-icon.svg" alt="linkedin" width="15" className="mx-auto"></img>
           </a>
           <a
             href="https://github.com/eviehoang/"
-            className="inline-flex items-center rounded-lg border bg-darkblue px-4 py-2 text-center text-sm font-medium text-white hover:bg-blue focus:outline-none focus:ring-4 focus:ring-gray-200 dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+            className="inline-block rounded-full bg-darkblue p-2.5 text-center text-sm font-medium text-white hover:bg-blue dark:bg-blue dark:hover:bg-yellow dark:focus:ring-blue"
           >
-            Github
+            <img src="./public/images/github-icon.svg" alt="linkedin" width="15" className="mx-auto"></img>
           </a>
         </div>
       </div>
