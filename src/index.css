@@ -1,3 +1,6 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+
 /* Variables */
 :root {
   --blue: #8ecae6;
@@ -9,8 +12,6 @@
   --white: #fff;
 }
 
-/* Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 
 * {
   margin: 0;
@@ -26,7 +27,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* Cursor */
-  cursor: url("../public/images/star-cursor.svg") 12 12, auto;
+  cursor: url("/images/star-cursor.svg") 12 12, auto;
 }
 
 code {
