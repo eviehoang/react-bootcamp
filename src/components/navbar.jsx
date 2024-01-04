@@ -5,7 +5,7 @@ import {
 } from "flowbite-react";
 import Banner from "./banner";
 
-export default function nav() {
+export default function Component() {
   return (
     <section className="border-double border-b-4 bg-blue">
         <Banner />
