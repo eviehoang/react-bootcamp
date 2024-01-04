@@ -22,10 +22,7 @@ module.exports = {
         darkblue: "#023047",
         yellow: "#ffb703",
         lavender: "#CAC6E0",
-        pink: "#F7C0B5",
-      },
-      backgroundColor: {
-        pink: "#ff66b2",
+        pink: "#e9a9cc",
       },
       spacing: {
         128: "32rem",

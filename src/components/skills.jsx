@@ -30,7 +30,7 @@ export default function Component() {
         </div>
         <div className="w-full bg-darkblue rounded-full h-2.5 dark:bg-blue mb-4">
           <div
-            className="bg-yellow h-2.5 rounded-full"
+            className="bg-pink h-2.5 rounded-full"
             style={{ width: `${htmlPercent}%` }}
           ></div>
         </div>
@@ -60,7 +60,7 @@ export default function Component() {
         </div>
         <div className="w-full bg-darkblue rounded-full h-2.5 dark:bg-blue mb-4">
           <div
-            className="bg-yellow h-2.5 rounded-full"
+            className="bg-pink h-2.5 rounded-full"
             style={{ width: `${javaPercent}%` }}
           ></div>
         </div>

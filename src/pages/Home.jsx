@@ -1,6 +1,6 @@
 import Info from "../components/info-card";
 import Skills from "../components/skills";
-import Accordian from "../components/accordian";
+import ProjectTabs from "../components/project-tabs";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       </div>
 
       <div className="flex justify-center m-20 space-x-12">
-        <Accordian />
+        <ProjectTabs />
       </div>
     </section>
   );

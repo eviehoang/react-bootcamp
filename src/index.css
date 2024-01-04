@@ -5,8 +5,12 @@
   --darkblue: #023047;
   --yellow: #ffb703;
   --lavender: #CAC6E0;
-  --pink: #F7C0B5;
+  --pink: #e9a9cc;
+  --white: #fff;
 }
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 
 * {
   margin: 0;
@@ -48,9 +52,32 @@ code {
 /* Navbar */
 .navLink{
   color: var(--darkblue);
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .navLink:hover{
   color: var(--yellow);
+}
+
+/* Banner Animation */
+.sentence{
+  font-size: 2em;
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  color: var(--white);
+}
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 2em;
+  background-color: var(--white);
+  margin-left: 8px;
+  animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+  0% {opacity: 1;}
+  40% {opacity: 1;}
+  60% {opacity: 0;}
+  100% {opacity: 0;}
 }
