@@ -17,7 +17,7 @@ export default function Component() {
         </h1>
 
         {/* Divider */}
-        <hr className="w-5/6 h-0.5 mx-auto my-4 bg-darkblue"></hr>
+        <hr className="w-5/6 h-0.5 mx-auto my-4 bg-teal"></hr>
 
         {/* Skill List */}
         <div className="flex justify-between mb-1 w-full gap-0">
