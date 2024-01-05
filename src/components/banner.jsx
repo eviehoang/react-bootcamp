@@ -46,7 +46,7 @@ export default function TypingComponent() {
   }, []); // Run the typing effect once on mount
 
   return (
-    <div className="flex items-center justify-center mt-8 mb-3 h-12">
+    <div className="flex items-center justify-center mt-2 mx-3 h-8">
       <span ref={sentenceRef} className="sentence">{text}</span>
       <span className="input-cursor"></span>
     </div>

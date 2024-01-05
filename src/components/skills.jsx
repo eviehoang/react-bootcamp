@@ -9,7 +9,7 @@ export default function Component() {
   return (
     <div className="flex flex-col gap-y-8 w-80">
     <img src="https://media.tenor.com/38XLJoF4zYcAAAAi/mongmong-cute.gif" alt="placeholder gif" className="w-28 flex mx-auto h-full"></img>
-    <Card>
+    <Card className="glassBox">
       <div className="items-center">
         {/* Heading */}
         <h1 className="mb-1 text-2xl font-medium text-center text-teal dark:text-white mb-3">
