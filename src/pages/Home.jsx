@@ -4,7 +4,7 @@ import Skills from "../components/skills";
 function Home() {
   return (
     <section>
-      <div className="flex items-end justify-center m-36 space-x-12">
+      <div className="lg:flex items-end justify-center lg:m-36 space-x-12 space-y-2">
         <Info />
         <Skills />
       </div>

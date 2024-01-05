@@ -1,4 +1,4 @@
-import { Navbar, NavbarCollapse, NavbarLink } from "flowbite-react";
+import { Navbar, NavbarCollapse, NavbarLink, NavbarToggle} from "flowbite-react";
 import Banner from "./banner";
 
 export default function Component() {
@@ -9,7 +9,8 @@ export default function Component() {
       </div>
       <div>
         <Navbar className="bg-transparent">
-          <NavbarCollapse className="flex md:flex md:flex-grow justify-center">
+          <NavbarToggle className="bg-transparent text-white" />
+          <NavbarCollapse>
             <NavbarLink href="home" className="navLink">
               Home
             </NavbarLink>

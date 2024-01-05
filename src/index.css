@@ -79,6 +79,7 @@ code {
   font-family: "Merriweather", serif;
 }
 
+
 /* Banner Animation */
 .sentence {
   font-size: 2em;
@@ -117,6 +118,7 @@ code {
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(6.5px);
   border-radius: 10px;
+  width: auto;
 }
 
 /* Footer */
