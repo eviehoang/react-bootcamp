@@ -1,10 +1,10 @@
 import { Card } from "flowbite-react";
 
 export default function Component() {
-  const htmlPercent = 92;
-  const cssPercent = 85;
-  const javaPercent = 80;
-  const reactPercent = 85;
+  const htmlPercent = 83;
+  const cssPercent = 91;
+  const javaPercent = 82;
+  const reactPercent = 84;
 
   return (
     <div className="flex flex-col sm:gap-y-8 w-80 justify-center m-auto">
