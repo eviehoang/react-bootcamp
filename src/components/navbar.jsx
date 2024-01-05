@@ -11,16 +11,16 @@ export default function Component() {
         <Navbar className="bg-transparent">
           <NavbarToggle className="bg-transparent text-white" />
           <NavbarCollapse>
-            <NavbarLink href="home" className="navLink">
+            <NavbarLink href="/home" className="navLink">
               Home
             </NavbarLink>
-            <NavbarLink href="projects" className="navLink">
+            <NavbarLink href="/projects" className="navLink">
               Projects
             </NavbarLink>
-            <NavbarLink href="resume" className="navLink">
+            <NavbarLink href="/resume" className="navLink">
               Resume
             </NavbarLink>
-            <NavbarLink href="contact" className="navLink">
+            <NavbarLink href="/contact" className="navLink">
               Contact
             </NavbarLink>
           </NavbarCollapse>
