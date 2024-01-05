@@ -27,7 +27,7 @@ export default function Component() {
           universe. My heart beats to the rhythm of creativity, fueled by coffee
           and the occasional bout of wanderlust. 
         </p>
-        <div className="flex space-x-2 lg:mt-6">
+        <div className="flex space-x-2 sm:mt-6">
           <a
             href="https://www.linkedin.com/"
             className="inline-block rounded-full bg-pink p-2.5 text-white hover:bg-teal dark:bg-blue dark:hover:bg-yellow dark:focus:ring-blue"

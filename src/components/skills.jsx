@@ -7,7 +7,7 @@ export default function Component() {
   const reactPercent = 85;
 
   return (
-    <div className="flex flex-col gap-y-8 w-80">
+    <div className="flex flex-col sm:gap-y-8 w-80 justify-center m-auto">
     <img src="https://media.tenor.com/38XLJoF4zYcAAAAi/mongmong-cute.gif" alt="placeholder gif" className="w-28 flex mx-auto h-full"></img>
     <Card className="glassBox">
       <div className="items-center">

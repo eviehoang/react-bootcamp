@@ -24,7 +24,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  overflow-x: hidden;
 
   /* Cursor */
   cursor: url("/images/star-cursor.svg") 12 12, auto;
@@ -75,10 +75,10 @@ code {
   text-decoration: underline;
 }
 
-#navFont, #headerFont {
+#navFont,
+#headerFont {
   font-family: "Merriweather", serif;
 }
-
 
 /* Banner Animation */
 .sentence {
@@ -122,29 +122,33 @@ code {
 }
 
 /* Footer */
-.ocean { 
-  height: 4%;
-  width:100%;
-  position:absolute;
-  bottom:0;
-  left:0;
-  background: var(--blue);
+.ocean {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: none;
+  overflow: hidden;
 }
 
 .wave {
-  background: url('./assets/wave.svg') repeat-x; 
+  background: url("./assets/wave.svg") repeat-x fixed;
   position: absolute;
-  top: -198px;
+  bottom: 0;
   width: 6400px;
-  height: 198px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  height: 170px;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
   transform: translate3d(0, 0, 0);
+  overflow: hidden;
 }
 
 .wave:nth-of-type(2) {
-  top: -175px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  bottom: 0;
+  animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+    swell 7s ease -1.25s infinite;
   opacity: 1;
+  overflow: hidden;
 }
 
 @keyframes wave {
@@ -157,10 +161,23 @@ code {
 }
 
 @keyframes swell {
-  0%, 100% {
-    transform: translate3d(0,-25px,0);
+  0%,
+  100% {
+    transform: translate3d(0, -25px, 0);
   }
   50% {
-    transform: translate3d(0,5px,0);
+    transform: translate3d(0, 5px, 0);
+  }
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  .ocean, .wave, .wave:nth-of-type(2) {
+    display: none;
+    padding: 5%;
+  }
+
+  .glassBox {
+margin-bottom: 1em;
   }
 }
