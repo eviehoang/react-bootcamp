@@ -5,6 +5,7 @@ export default function Component() {
     <Footer className="ocean -z-40">
       <div className="wave"></div>
       <div className="wave"></div>
+      <div className="wave"></div>
     </Footer>
   );
 }
