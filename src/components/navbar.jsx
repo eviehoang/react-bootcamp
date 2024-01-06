@@ -3,13 +3,13 @@ import Banner from "./banner";
 
 export default function Component() {
   return (
-    <section className="bg-transparent flex justify-between items-center border-none p-2" id="navFont">
+    <section className="bg-transparent flex justify-between items-center border-none p-2 Nav" id="navFont">
       <div>
         <Banner />
       </div>
       <div>
         <Navbar className="bg-transparent">
-          <NavbarToggle className="bg-transparent text-white" />
+          <NavbarToggle className="bg-transparent text-white justify-evenly border-0 hover:bg-transparent focus:border-0 focus:outline-none active:border-0" />
           <NavbarCollapse>
             <NavbarLink href="/home" className="navLink">
               Home

@@ -63,6 +63,7 @@ code {
 .navLink {
   color: var(--white);
   font-size: 1.1em;
+  width: 100%;
 }
 
 .navLink:hover {
@@ -276,6 +277,16 @@ figure:hover img {
     border-radius: 1rem;
     overflow: hidden;
     cursor: pointer;
+    width: 100%;
+  }
+
+  .Banner{
+    display: none;
+  }
+
+ .Nav{
+    display: inline;
+    margin: auto;
     width: 100%;
   }
 }
