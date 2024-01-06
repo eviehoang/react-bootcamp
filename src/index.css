@@ -177,8 +177,7 @@ code {
 }
 
 /* Project Cards */
-
-figure{
+figure {
   display: grid;
   border-radius: 1rem;
   overflow: hidden;

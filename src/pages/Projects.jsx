@@ -37,7 +37,7 @@ function Projects() {
           </figure>
         </a>
 
-        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png/" className="projectCard">
+        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" className="projectCard">
           <figure>
           <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Recipe Rolodex
@@ -46,7 +46,7 @@ function Projects() {
           </figure>
         </a>
 
-        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png/" className="projectCard">
+        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" className="projectCard">
           <figure>
           <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Work Remote
@@ -55,7 +55,7 @@ function Projects() {
           </figure>
         </a>
 
-        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png/" className="projectCard">
+        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" className="projectCard">
           <figure>
             <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Work Remote
