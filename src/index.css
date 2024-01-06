@@ -193,30 +193,30 @@ figure{
     object-fit: cover;
     transition: 0.4s;
   }
+}
 
-  figcaption {
-    display: grid;
-    align-items: center;
-    font-family: "Merriweather", serif;
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #0000;
-    padding: 1.5rem;
-    background: var(--c, rgba(0, 128, 128, 0.85));
-    clip-path: inset(0 var(--_i, 100%) 0 0);
-    mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
-    mask-composite: multiply;
-    mask-clip: text, padding-box;
-    margin: -1px;
-    text-align: center;
-  }
+figcaption {
+  display: grid;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0000;
+  padding: 1.5rem;
+  background: var(--c, rgba(0, 128, 128, 0.));
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  mask-composite: multiply;
+  mask-clip: text, padding-box;
+  margin: -1px;
+  text-align: center;
+}
 
-  figcaption p {
-    font-size: 1.25rem;
-    padding: auto;
-    margin-bottom: 3rem;
-    text-align: left;
-  }
+figcaption p {
+  font-size: 1.25rem;
+  padding: auto;
+  margin-bottom: 3rem;
+  text-align: left;
 }
 
 .projectCard {
