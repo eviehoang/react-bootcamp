@@ -21,7 +21,7 @@ function Projects() {
 
         <a href="https://work-remote-jsn-4d3b6593bab7.herokuapp.com/" className="projectCard">
           <figure>
-            <img src={recipeRolo} alt="Work Remote Site" />
+          <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Work Remote
             <p>An application created with Node.js, MySQL, Sequelize, Handlebars, and Bootstrap Material Design.</p>
             </figcaption>  
@@ -37,27 +37,27 @@ function Projects() {
           </figure>
         </a>
 
-        <a href="https://recipe-rolodex-d7c0cb19d5d1.herokuapp.com/" className="projectCard">
+        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png/" className="projectCard">
           <figure>
-            <img src={recipeRolo} alt="Recipe Rolodex Site" />
+          <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Recipe Rolodex
             <p>Recipe Rolodex, created with REACT, and Bootstrap Material Design.</p>
             </figcaption>
           </figure>
         </a>
 
-        <a href="https://work-remote-jsn-4d3b6593bab7.herokuapp.com/" className="projectCard">
+        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png/" className="projectCard">
           <figure>
-            <img src={recipeRolo} alt="Work Remote Site" />
+          <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Work Remote
             <p>An application created with Node.js, MySQL, Sequelize, Handlebars, and Bootstrap Material Design.</p>
             </figcaption>  
           </figure>
         </a>
 
-        <a href="https://work-remote-jsn-4d3b6593bab7.herokuapp.com/" className="projectCard">
+        <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png/" className="projectCard">
           <figure>
-            <img src={noteTaker} alt="Work Remote Site" />
+            <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Work Remote
             <p>An application created with Node.js, MySQL, Sequelize, Handlebars, and Bootstrap Material Design.</p>
             </figcaption>  
