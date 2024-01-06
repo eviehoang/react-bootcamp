@@ -30,7 +30,7 @@ function Projects() {
 
         <a href="https://work-remote-jsn-4d3b6593bab7.herokuapp.com/" className="projectCard">
           <figure>
-            <img src={noteTaker} alt="Work Remote Site" />
+          <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
             <figcaption>Work Remote
             <p>An application created with Node.js, MySQL, Sequelize, Handlebars, and Bootstrap Material Design.</p>
             </figcaption>  
