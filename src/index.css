@@ -202,7 +202,7 @@ figure{
     font-weight: bold;
     color: #0000;
     padding: 1.5rem;
-    background: var(--c, rgba(0, 128, 128, 0.9));
+    background: var(--c, rgba(0, 128, 128, 0.85));
     clip-path: inset(0 var(--_i, 100%) 0 0);
     mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
     mask-composite: multiply;
