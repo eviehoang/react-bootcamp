@@ -196,7 +196,7 @@ figure img {
   transition: 0.4s;
 }
 
-figure figcaption {
+figcaption {
   display: grid;
   align-items: center;
   font-family: "Merriweather", serif;

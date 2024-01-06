@@ -1,6 +1,6 @@
 import recipeRolo from "../assets/project-images/recipe-rolodex.png"
 // import workRemote from "../assets/project-images/work-remote.png"
-import noteTaker from "../assets/project-images/note-taker.png"
+// import noteTaker from "../assets/project-images/note-taker.png"
 
 function Projects() {
   return (
