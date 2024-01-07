@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SmileIcon from "../assets/smile-icon.svg";
 import githubIcon from "../assets/github-icon.svg";
 import linkedinIcon from "../assets/linkedin-icon.svg";
 import home from "../assets/home.svg";
@@ -7,7 +6,7 @@ import home from "../assets/home.svg";
 export default function Landing() {
   // Custom Theme
   const commonButtonStyle =
-    "inline-block bg-transparent rounded-lg p-auto text-white font-bold text-sm hover:opacity-90 dark:focus:ring-blue m-2";
+    "inline-block bg-transparent text-white font-semibold text-sm hover:opacity-90 dark:focus:ring-blue m-2";
 
   const btnImg = "inline-block m-auto flex justify-end";
 
@@ -28,17 +27,17 @@ export default function Landing() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-evenly h-screen gap-3">
-      <div className="text-center m-1">
+    <div className="flex flex-col items-center justify-center h-screen gap-16">
+      <div className="text-center">
         <h1
-          className="text-9xl font-bold text-white"
+          className="text-9xl font-bold text-white mb-2"
           id="nameHeader"
           onMouseMove={handleMouseMove}
           style={{ textShadow: textShadow }}
         >
           Nhi Hoang
         </h1>
-        <h2 className="text-3xl font-medium text-darkblue">
+        <h2 className="text-3xl font-medium text-darkblue mb-6">
           Fullstack MERN Developer
         </h2>
       </div>
@@ -50,11 +49,7 @@ export default function Landing() {
 
       {/* Directory */}
       <div className="text-center">
-        <h3 className="text-xl font-medium mb-1 text-darkblue">Directory</h3>
-        <a href="/home" className={`${commonButtonStyle}`}>
-          <img src={home} alt="home link" width="20" className={`${btnImg}`} />
-          Home
-        </a>
+        <h3 className="text-xl font-semibold text-white"><u>Navigation Menu</u></h3> 
         <a href="https://www.linkedin.com/" className={`${commonButtonStyle}`}>
           <img
             src={linkedinIcon}
@@ -64,6 +59,12 @@ export default function Landing() {
           />
           LinkedIn
         </a>
+
+        <a href="/home" className={`${commonButtonStyle}`}>
+          <img src={home} alt="Portfolio link" width="20" className={`${btnImg}`} />
+          Portfolio
+        </a>
+
         <a
           href="https://github.com/eviehoang/"
           className={`${commonButtonStyle}`}

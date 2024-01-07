@@ -257,9 +257,9 @@ figure:hover img {
   position: relative;
   width: 100px;
   height: 90px;
-  margin: auto;
+  margin: 0;
   animation: float 2s ease-in-out infinite;
-  filter: drop-shadow(0 0 0.75rem var(--teal));
+  filter: drop-shadow(0 0 1rem var(--pink));
 }
 
 .heart::before,
