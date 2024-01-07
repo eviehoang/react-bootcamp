@@ -17,7 +17,7 @@ export default function Component() {
           Nhi Hoang
         </h5>
         <span className="text-sm text-gray-500 dark:text-gray-400">
-          Front End Developer
+          Full Stack Developer
         </span>
         <p className="text-sm mt-2 p-0 text-justify"> 
           Hey there! 👋 I'm a passionate explorer of life's wonders and a

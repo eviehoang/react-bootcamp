@@ -17,6 +17,15 @@
   padding: 0;
 }
 
+h1 {
+  font-family: "Merriweather", serif;
+}
+
+h2,
+h3 {
+  font-style: italic;
+}
+
 body {
   margin: 0;
   font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
@@ -118,14 +127,14 @@ code {
   backdrop-filter: blur(5.5px);
   -webkit-backdrop-filter: blur(6.5px);
   border-radius: 10px;
-  width: auto;
+  width: 95%;
 }
 
 /* Footer */
 .ocean {
   height: 50%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background: none;
@@ -182,11 +191,9 @@ figure {
   display: grid;
   border-radius: 1rem;
   overflow: hidden;
-  cursor: pointer;
   width: 100%;
-  height: 15rem;
+  height: 100%;
   object-fit: cover;
-
 }
 
 figure img {
@@ -200,10 +207,10 @@ figcaption {
   display: grid;
   align-items: center;
   font-family: "Merriweather", serif;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: var(--white);
-  padding: 1.5rem;
+  padding: 1rem;
   background: var(--c, rgba(0, 128, 128, 0.85));
   clip-path: inset(0 var(--_i, 100%) 0 0);
   margin: -1px;
@@ -211,25 +218,22 @@ figcaption {
 }
 
 figcaption p {
-  font-size: 1.25rem;
-  padding: auto;
-  margin-bottom: 3rem;
+  font-size: 1rem;
   text-align: left;
+  padding: 0;
 }
 
 .projectCard {
-  display: grid;
   border-radius: 1rem;
   overflow: hidden;
   cursor: pointer;
-  width: 30%;
+  width: 31%;
 }
 
 figure > * {
   grid-area: 1/1;
-  transition: 0.4s;
+  transition: 0.6s;
 }
-
 
 figure:hover figcaption {
   --_i: 0%;
@@ -248,6 +252,49 @@ figure:hover img {
   text-decoration: underline;
 }
 
+/* Heart Landing Animation */
+.heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  margin: auto;
+  animation: float 2s ease-in-out infinite;
+  filter: drop-shadow(0 0 0.75rem var(--teal));
+}
+
+.heart::before,
+.heart::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 52px;
+  height: 80px;
+  border-radius: 50px 50px 0 0;
+  background: var(--white);
+}
+
+.heart::before {
+  left: 50px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
 /* Media Query for Small Screens */
 @media screen and (max-width: 768px) {
   .ocean,
@@ -261,7 +308,7 @@ figure:hover img {
     margin-bottom: 1em;
   }
 
-  figure{
+  figure {
     display: grid;
     border-radius: 1rem;
     overflow: hidden;
@@ -271,20 +318,19 @@ figure:hover img {
       display: none;
     }
   }
-  
+
   .projectCard {
     display: grid;
     border-radius: 1rem;
-    overflow: hidden;
-    cursor: pointer;
+    overflow: none;
     width: 100%;
   }
 
-  .Banner{
+  .Banner {
     display: none;
   }
 
- .Nav{
+  .Nav {
     display: inline;
     margin: auto;
     width: 100%;

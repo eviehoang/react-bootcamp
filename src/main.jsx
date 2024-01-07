@@ -11,6 +11,7 @@ import Resume from './pages/Resume.jsx';
 import Contact from './pages/Contact.jsx';
 import Lost from './pages/Lost.jsx';
 import Loading from "./pages/Loading.jsx";
+import Landing from './pages/Landing.jsx';
 
 
 const Root = () => {
@@ -29,7 +30,7 @@ const Root = () => {
       path: "/",
       element: <App />,
       children: [
-        { index: true, element: load ? <Loading /> : <Home /> },
+        { index: true, element: load ? <Loading /> : <Landing /> },
         { path:"/home", index: false, element: load ? <Loading /> : <Home /> },
         { path:"/projects", index: false, element: load ? <Loading /> : <Projects /> },
         { path:"/resume", index: false, element: load ? <Loading /> : <Resume /> },
