@@ -1,6 +1,6 @@
 import recipeRolo from "../assets/project-images/recipe-rolodex.png"
-// import workRemote from "../assets/project-images/work-remote.png"
-// import noteTaker from "../assets/project-images/note-taker.png"
+import operaLanding from "../assets/project-images/opera-landing.png"
+
 
 function Projects() {
   return (
@@ -9,7 +9,7 @@ function Projects() {
         <h1 id="projectHeading">Projects</h1>
       </div>
 
-      <div className="flex flex-wrap justify-center mt-0 gap-9 py-12 w-5/6">
+      <div className="flex flex-wrap flex-reverse justify-center mt-0 gap-9 py-12 w-5/6">
         <a href="https://recipe-rolodex-d7c0cb19d5d1.herokuapp.com/" className="projectCard">
           <figure>
             <img src={recipeRolo} alt="Recipe Rolodex Site" />
@@ -62,10 +62,10 @@ function Projects() {
 
         <a href="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" className="projectCard">
           <figure>
-            <img src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png" alt="Work Remote Site" />
-            <figcaption>Work Remote
-            <p className="mt-3">An application created with Node.js, MySQL, Sequelize, Handlebars, and Bootstrap Material Design.</p>
-            <p className="text-right">See More &gt;</p>
+            <img src={operaLanding} alt="Opera Landing Page" />
+            <figcaption>Landing Page: Pre-launch
+            <p className="mt-3">A client requested landing page for an Opera Project. Built with JAVASCRIPT, CSS, and HTML.</p>
+            <p className="text-right">See Deployed &gt;</p>
             </figcaption>  
           </figure>
         </a>
