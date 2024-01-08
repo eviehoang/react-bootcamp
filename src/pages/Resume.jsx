@@ -53,7 +53,7 @@ export default function Component() {
           <TimelinePoint />
           <TimelineContent>
             <TimelineTime className={timeHeading}>April 2021-2023</TimelineTime>
-            <TimelineTitle classname={timeSubtitle}>Production Designer @ MAGENTA INC.</TimelineTitle>
+            <TimelineTitle className={timeSubtitle}>Production Designer @ MAGENTA INC.</TimelineTitle>
             <TimelineBody className={timeBody}>
               <ul className={listStyle}>
                 <li>
@@ -86,7 +86,7 @@ export default function Component() {
             <TimelineTime className={timeHeading}>
               December 2019 - April 2021
             </TimelineTime>
-            <TimelineTitle classname={timeSubtitle}>Freelance Designer</TimelineTitle>
+            <TimelineTitle className={timeSubtitle}>Freelance Designer</TimelineTitle>
             <TimelineBody className={timeBody}>
               <ul className={listStyle}>
                 <li>
@@ -114,7 +114,7 @@ export default function Component() {
           <TimelinePoint />
           <TimelineContent>
             <TimelineTime className={timeHeading}>November 2018 - November 2019</TimelineTime>
-            <TimelineTitle classname={timeSubtitle}>Workshop Instructor & Coordinator</TimelineTitle>
+            <TimelineTitle className={timeSubtitle}>Workshop Instructor & Coordinator</TimelineTitle>
             <TimelineBody className={timeBody}>
               <ul className={listStyle}>
                 <li>Facilitated an interactive workshop tailored to industrial design students, focusing on rapid visualization, product ideation, and proficiency in Adobe Suite applications.</li>
