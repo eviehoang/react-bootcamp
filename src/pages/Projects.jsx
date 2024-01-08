@@ -1,5 +1,5 @@
 import recipeRolo from "../assets/project-images/recipe-rolodex.png"
-import operaLanding from "../assets/project-images/opera-landing.png"
+import operaLanding from "../assets/project-images/opera-landing-page.png"
 
 
 function Projects() {
