@@ -47,8 +47,8 @@ export default function TypingComponent() {
 
   return (
     <div className="flex items-center justify-center mt-2 mx-3 h-8 Banner">
-      <span ref={sentenceRef} className="sentence">{text}</span>
-      <span className="input-cursor"></span>
+     <a href='/'><span ref={sentenceRef} className="sentence">{text}</span>
+      <span className="input-cursor"></span></a> 
     </div>
   );
 }

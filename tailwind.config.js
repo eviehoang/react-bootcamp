@@ -23,6 +23,7 @@ module.exports = {
         yellow: "#ffb703",
         lavender: "#CAC6E0",
         pink: "#e9a9cc",
+        white: "#ffffff",
       },
       spacing: {
         128: "32rem",
