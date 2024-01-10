@@ -1,5 +1,6 @@
 import { Spinner } from 'flowbite-react';
 
+// Loading Spinner while the page is rendering.
 export default function Component() {
   return (
     <div className="flex items-center justify-center h-screen">

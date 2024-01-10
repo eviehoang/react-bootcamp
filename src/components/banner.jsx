@@ -43,7 +43,7 @@ export default function TypingComponent() {
     return () => {
       // Add any cleanup logic here
     };
-  }, []); // Run the typing effect once on mount
+  }, []); // Run the typing effect on mount
 
   return (
     <div className="flex items-center justify-center mt-2 mx-3 h-8 Banner">

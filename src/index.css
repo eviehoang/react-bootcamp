@@ -100,7 +100,7 @@ code {
 .input-cursor {
   display: inline-block;
   width: 2px;
-  height: 2em;
+  height: 1.85em;
   background-color: var(--white);
   margin-left: 8px;
   animation: blink 0.6s linear infinite alternate;

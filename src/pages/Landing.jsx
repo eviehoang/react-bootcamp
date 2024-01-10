@@ -50,7 +50,7 @@ export default function Landing() {
       {/* Directory */}
       <div className="text-center">
         <h3 className="text-xl font-semibold text-white"><u>Navigation Menu</u></h3> 
-        <a href="https://www.linkedin.com/" className={`${commonButtonStyle}`}>
+        <a href="https://www.linkedin.com/in/ynhihoang/" className={`${commonButtonStyle}`}>
           <img
             src={linkedinIcon}
             alt="LinkedIn link"

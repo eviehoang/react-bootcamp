@@ -18,10 +18,10 @@ const employeeTrackerLink= "https://github.com/eviehoang/employee-tracker";
   return (
     <section className="flex items-center flex-wrap justify-center m-8 px-8 z-40">
       <div className="m-auto container mb-0">
-        <h1 id="projectHeading">Projects</h1>
+        <h1 className="text-3xl mb-0" id="projectHeading">Projects</h1>
       </div>
 
-      <div className="flex flex-wrap justify-center mt-0 gap-9 py-12 w-5/6">
+      <div className="flex flex-wrap justify-center mt-0 pt-6 gap-9 py-12 w-5/6">
       <a href={employeeTrackerLink} className="projectCard">
           <figure>
           <img src={employeeTracker} alt="Employee Tracker" />

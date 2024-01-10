@@ -29,7 +29,7 @@ export default function Component() {
         </p>
         <div className="flex space-x-2 sm:mt-6">
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/ynhihoang/"
             className="inline-block rounded-full bg-pink p-2.5 text-white hover:bg-teal dark:bg-blue dark:hover:bg-yellow dark:focus:ring-blue"
             >
             <img src={linkedinIcon} alt="linkedin" width="15" className="mx-auto"></img>

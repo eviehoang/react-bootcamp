@@ -20,7 +20,7 @@ const Root = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       updateLoad(false);
-    }, 1200);
+    }, 1600);
 
     return () => clearTimeout(timer);
   }, []);
@@ -30,7 +30,7 @@ const Root = () => {
       path: "/",
       element: <App />,
       children: [
-        { index: true, element: load ? <Loading /> : <Landing /> },
+        { index: true, element: <Landing /> },
         { path:"/home", index: false, element: load ? <Loading /> : <Home /> },
         { path:"/projects", index: false, element: load ? <Loading /> : <Projects /> },
         { path:"/resume", index: false, element: load ? <Loading /> : <Resume /> },
