@@ -19,7 +19,7 @@ export default function Component() {
     <section className="flex flex-col justify-center mx-40 gap-8 z-40">
       <h1 className="text-3xl text-white text-center underline">Resume</h1>
 
-      <div className="max-w-full flex flex-wrap align-center justify-evenly gap-x-40">
+      <div className="max-w-full flex flex-wrap align-center justify-evenly gap-x-20">
       <div>
           {/* Education */}
           <h1 className={timeTitle}>Education</h1>
@@ -60,14 +60,24 @@ export default function Component() {
             <TimelineItem>
               <TimelinePoint />
               <TimelineContent>
-                <TimelineTime className={timeHeading}>
-                  December 2023
-                </TimelineTime>
-                <TimelineTitle className={timeSubtitle}>
-                  MERN Fullstack Certification
-                </TimelineTitle>
                 <TimelineBody className={timeBody}>
-                  Full-stack MERN Bootcamp through UC Berkeley Extension.
+                <ul className={listStyle}>
+                    <li>
+                    JavaScript, GitHub, MySQL, UI/UX Design, Adobe Suite, Figma
+                    </li>
+                    <li>
+HTML, CSS, Bootstrap, React, Node.js, Express.js, MongoDB
+                    </li>
+                    <li>
+                    Handlebars.js, jQuery, APIs, Heroku, Git
+                    </li>
+                    <li>
+                    Strong communication skills and ability to work effectively in a team.
+                    </li>
+                    <li>
+                    Experience collaborating with back-end developers and designers.
+                    </li>
+                  </ul>
                 </TimelineBody>
               </TimelineContent>
             </TimelineItem>
