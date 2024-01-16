@@ -1,5 +1,6 @@
 /* Font Import */
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
 /* Variables */
 :root {
@@ -18,7 +19,7 @@
 }
 
 h1 {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", sans-serif;
 }
 
 h2,
@@ -71,7 +72,8 @@ code {
 /* Navbar */
 .navLink {
   color: var(--white);
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-weight: 900;
   width: 100%;
   border-bottom: solid 0.1rem var(--white);
 }
@@ -87,7 +89,8 @@ code {
 
 #navFont,
 #headerFont {
-  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
+font-style: black;
 }
 
 /* Banner Animation */
@@ -207,7 +210,7 @@ figure img {
 figcaption {
   display: grid;
   align-items: start;
-  font-family: "Merriweather", serif;
+  font-family: "Roboto", sans-serif;
   font-size: clamp(1.25rem, 2vw, 1.55rem);
   font-weight: bold;
   color: var(--white);
@@ -247,7 +250,7 @@ figure:hover img {
 }
 
 #projectHeading {
-  font-family: "Merriweather", serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 1.8rem;
   font-weight: bold;
   color: var(--white);
@@ -318,7 +321,7 @@ figure:hover img {
   }
 
   .glassBox {
-    margin-bottom: 1em;
+    margin: auto;
   }
 
   figure {
@@ -330,7 +333,7 @@ figure:hover img {
   }
 
   figure p {
-    font-size: clamp(.9rem, 2vw, 1rem);
+    font-size: clamp(0.9rem, 2vw, 1rem);
   }
 
   .projectCard {
@@ -338,6 +341,12 @@ figure:hover img {
     border-radius: 1rem;
     overflow: none;
     width: 100%;
+  }
+
+  figure img {
+    height: 100%;
+    object-fit: fill;
+    transition: 0.4s;
   }
 
   .Banner {
@@ -353,5 +362,4 @@ figure:hover img {
   .contactBox {
     width: 100%;
   }
-
 }

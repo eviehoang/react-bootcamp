@@ -16,11 +16,11 @@ export default function Component() {
   const timeSubtitle = "text-teal ";
 
   return (
-    <section className="flex flex-col justify-center mx-40 gap-8 z-40">
+    <section className="flex flex-col justify-center m-12 gap-8 z-40">
       <h1 className="text-3xl text-white text-center underline">Resume</h1>
 
-      <div className="max-w-full flex flex-wrap align-center justify-evenly gap-x-20">
-      <div>
+      <div className="max-w-full flex flex-wrap m-auto gap-x-12">
+        <div>
           {/* Education */}
           <h1 className={timeTitle}>Education</h1>
           <Timeline>
@@ -61,21 +61,22 @@ export default function Component() {
               <TimelinePoint />
               <TimelineContent>
                 <TimelineBody className={timeBody}>
-                <ul className={listStyle}>
+                  <ul className={listStyle}>
                     <li>
-                    JavaScript, GitHub, MySQL, UI/UX Design, Adobe Suite, Figma
+                      JavaScript, GitHub, MySQL, UI/UX Design, Adobe Suite,
+                      Figma
                     </li>
                     <li>
-HTML, CSS, Bootstrap, React, Node.js, Express.js, MongoDB
+                      HTML, CSS, Bootstrap, React, Node.js, Express.js, MongoDB
+                    </li>
+                    <li>Handlebars.js, jQuery, APIs, Heroku, Git</li>
+                    <li>
+                      Strong communication skills and ability to work
+                      effectively in a team.
                     </li>
                     <li>
-                    Handlebars.js, jQuery, APIs, Heroku, Git
-                    </li>
-                    <li>
-                    Strong communication skills and ability to work effectively in a team.
-                    </li>
-                    <li>
-                    Experience collaborating with back-end developers and designers.
+                      Experience collaborating with back-end developers and
+                      designers.
                     </li>
                   </ul>
                 </TimelineBody>
