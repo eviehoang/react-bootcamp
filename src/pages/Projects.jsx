@@ -26,8 +26,8 @@ const employeeTrackerLink= "https://github.com/eviehoang/employee-tracker";
           <figure>
           <img src={employeeTracker} alt="Employee Tracker" />
             <figcaption>Employee Tracker
-            <p className="mt-3">This system is designed to operate within the terminal and is powered by MYSQL2, JavaScript, and Inquirer. The program allows use to view all employees, departments, and roles.</p>
-            <p className="text-right">See Repo &gt;</p>
+            <p className="mt-0">This system is designed to operate within the terminal and is powered by MYSQL2, JavaScript, and Inquirer. The program allows use to view all employees, departments, and roles.</p>
+            <p className="text-right">See Deployed &gt;</p>
             </figcaption>  
           </figure>
         </a>
@@ -36,7 +36,7 @@ const employeeTrackerLink= "https://github.com/eviehoang/employee-tracker";
           <figure>
           <img src={noteTaker} alt="Note Taker Application" />
             <figcaption>Note Taker
-            <p className="mt-3">A simple Express.js application for managing and retrieving notes. API routes handle reading, creating, and deleting notes from a JSON file (db.json). The code uses the uuid library to generate unique IDs for notes.</p>
+            <p className="mt-0">A simple Express.js application for managing and retrieving notes. API routes handle reading, creating, and deleting notes from a JSON file (db.json). The code uses the uuid library to generate unique IDs for notes.</p>
             <p className="text-right">See Deployed &gt;</p>
             </figcaption>  
           </figure>
@@ -46,7 +46,7 @@ const employeeTrackerLink= "https://github.com/eviehoang/employee-tracker";
           <figure>
           <img src={sceneryFinder} alt="Scenery Finder Site" />
             <figcaption>Scenery Finder
-            <p className="mt-3">Scenery Finder is a user-friendly application that seamlessly combines two APIs and three libraries to help users quickly discover parks and activities in their chosen cities.</p>
+            <p className="mt-0">Scenery Finder is a user-friendly application that seamlessly combines two APIs and three libraries to help users quickly discover parks and activities in their chosen cities.</p>
             <p className="text-right">See Deployed &gt;</p>
             </figcaption>
           </figure>
@@ -56,7 +56,7 @@ const employeeTrackerLink= "https://github.com/eviehoang/employee-tracker";
           <figure>
             <img src={recipeRolo} alt="Recipe Rolodex Site" />
             <figcaption>Recipe Rolodex
-            <p className="mt-3">Recipe Rolodex, created with REACT, and Bootstrap Material Design.</p>
+            <p className="mt-0">Recipe Rolodex, created with REACT, and Bootstrap Material Design.</p>
             <p className="text-right">See Deployed &gt;</p>
             </figcaption>
           </figure>
@@ -66,7 +66,7 @@ const employeeTrackerLink= "https://github.com/eviehoang/employee-tracker";
           <figure>
           <img src={workRemote} alt="Work Remote Site" />
             <figcaption>Work Remote
-            <p className="mt-3">An application created with Node.js, MySQL, Sequelize, Handlebars, and Bootstrap Material Design.</p>
+            <p className="mt-0">An application created with Node.js, MySQL, Sequelize, Handlebars, and Bootstrap Material Design.</p>
             <p className="text-right">See Deployed &gt;</p>
             </figcaption>  
           </figure>
@@ -76,7 +76,7 @@ const employeeTrackerLink= "https://github.com/eviehoang/employee-tracker";
           <figure>
             <img src={operaLanding} alt="Opera Landing Page" />
             <figcaption>Landing Page: Pre-launch
-            <p className="mt-3">A client requested landing page for an Opera Project. Built with JAVASCRIPT, CSS, and HTML.</p>
+            <p className="mt-0">A client requested landing page for an Opera Project. Built with JAVASCRIPT, CSS, and HTML.</p>
             <p className="text-right">See Deployed &gt;</p>
             </figcaption>  
           </figure>
