@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Label, TextInput, Textarea, Button } from "flowbite-react";
-import { HiMail, HiOutlineArrowRight } from "react-icons/hi";
+import { HiOutlineArrowRight } from "react-icons/hi";
 
 function Contact() {
   const [userSubject, setUserSubject] = useState("");
