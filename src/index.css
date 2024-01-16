@@ -344,9 +344,9 @@ figure:hover img {
   }
 
   figure img {
-    height: 50%;
     object-fit: cover;
     transition: 0.4s;
+    background-position: center;
   }
 
   .Banner {
