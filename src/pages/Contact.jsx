@@ -3,25 +3,13 @@ import { Label, TextInput, Textarea, Button } from "flowbite-react";
 import { HiMail, HiOutlineArrowRight } from "react-icons/hi";
 
 function Contact() {
-  const [userEmail, setUserEmail] = useState("");
   const [userSubject, setUserSubject] = useState("");
   const [userMessage, setUserMessage] = useState("");
-  const [emailError, setEmailError] = useState("");
 
-  const isEmailValid = () => {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(userEmail);
-  };
+
 
   const handleSendEmail = () => {
-    if (!isEmailValid()) {
-      setEmailError("Please enter a valid email address.");
-      return;
-    }
-
-    setEmailError(""); // Clear previous error message
-
-    const encodedEmail = encodeURIComponent(userEmail);
+    const encodedEmail = "evie.h0325@gmail.com";
     const encodedSubject = encodeURIComponent(userSubject);
     const encodedMessage = encodeURIComponent(userMessage);
 
@@ -35,27 +23,7 @@ function Contact() {
         Contact Me
       </h1>
       <div className="m-auto w-2/4 flex-col contactBox">
-        <div className="lg:w-1/2 mb-6">
-          <div className="mb-1 block">
-            <Label htmlFor="email4" value="E-mail" className="small" />
-          </div>
-          <TextInput
-            id="email4"
-            type="email"
-            rightIcon={HiMail}
-            placeholder="email@gmail.com"
-            required
-            value={userEmail}
-            onChange={(e) => {
-              setUserEmail(e.target.value);
-              setEmailError(""); // Clear error when typing
-            }}
-          />
-          {emailError && (
-            <div className="text-red-500 mt-1 ml-2 text-sm">{emailError}</div>
-          )}
-        </div>
-
+      
         <div className="lg:w-1/2 mb-8">
           <div className="mb-1 block">
             <Label value="Subject" className="small" />

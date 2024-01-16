@@ -344,8 +344,8 @@ figure:hover img {
   }
 
   figure img {
-    height: 100%;
-    object-fit: fill;
+    height: 50%;
+    object-fit: cover;
     transition: 0.4s;
   }
 
