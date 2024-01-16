@@ -73,7 +73,7 @@ code {
   color: var(--white);
   font-size: 1.1em;
   width: 100%;
-  border-bottom: solid .1rem var(--white);
+  border-bottom: solid 0.1rem var(--white);
 }
 
 .navLink:hover {
@@ -208,7 +208,7 @@ figcaption {
   display: grid;
   align-items: start;
   font-family: "Merriweather", serif;
-  font-size: clamp(1rem, 2vw, 1.55rem);
+  font-size: clamp(1.25rem, 2vw, 1.55rem);
   font-weight: bold;
   color: var(--white);
   padding: 1rem;
@@ -218,7 +218,7 @@ figcaption {
 }
 
 figcaption p {
-  font-size: clamp(.5rem, 2vw, 1rem);
+  font-size: clamp(0.5rem, 2vw, 1rem);
   text-align: left;
   padding: 0;
   margin: 0;
@@ -299,13 +299,13 @@ figure:hover img {
 }
 
 /* Contact Page */
-.contactBox{
-background: rgba(255, 255, 255, 0.6);
-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);
-backdrop-filter: blur(5.5px);
--webkit-backdrop-filter: blur(6.5px);
-border-radius: 10px;
-padding: 2rem;
+.contactBox {
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.17);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  padding: 2rem;
 }
 
 /* Media Query for Small Screens */
@@ -329,8 +329,8 @@ padding: 2rem;
     width: 100%;
   }
 
-  figure p{
-    display: none;
+  figure p {
+    font-size: clamp(.9rem, 2vw, 1rem);
   }
 
   .projectCard {
@@ -350,7 +350,8 @@ padding: 2rem;
     width: 100%;
   }
 
-  .contactBox{
+  .contactBox {
     width: 100%;
-    }
+  }
+
 }
