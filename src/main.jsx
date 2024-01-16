@@ -20,7 +20,7 @@ const Root = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       updateLoad(false);
-    }, 1600);
+    }, 1200);
 
     return () => clearTimeout(timer);
   }, []);
